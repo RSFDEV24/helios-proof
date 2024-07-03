@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="5" failures="0" errors="0" time="1.508">
-  <testsuite name="__test__/About.test.jsx" errors="0" failures="0" skipped="0" timestamp="2024-07-03T09:13:51" time="0.639" tests="3">
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="1.5">
+  <testsuite name="__test__/About.test.jsx" errors="0" failures="0" skipped="0" timestamp="2024-07-03T09:22:07" time="0.67" tests="3">
     <testcase classname="About should containe the text &quot;About&quot;" name="About should containe the text &quot;About&quot;" time="0.06">
     </testcase>
-    <testcase classname="About should containe the text &quot;Back to the homse page&quot;" name="About should containe the text &quot;Back to the homse page&quot;" time="0.02">
+    <testcase classname="About should containe the text &quot;Back to the homse page&quot;" name="About should containe the text &quot;Back to the homse page&quot;" time="0.011">
     </testcase>
-    <testcase classname="About should containe the text &quot;Lorem ipsum&quot;" name="About should containe the text &quot;Lorem ipsum&quot;" time="0.009">
+    <testcase classname="About should containe the text &quot;Lorem ipsum&quot;" name="About should containe the text &quot;Lorem ipsum&quot;" time="0.015">
     </testcase>
   </testsuite>
-  <testsuite name="__test__/Home.test.jsx" errors="0" failures="0" skipped="0" timestamp="2024-07-03T09:13:51" time="0.193" tests="2">
+  <testsuite name="__test__/Home.test.jsx" errors="0" failures="0" skipped="0" timestamp="2024-07-03T09:22:08" time="0.192" tests="2">
     <testcase classname="Home should have About text" name="Home should have About text" time="0.015">
     </testcase>
-    <testcase classname="Home should containe the text &quot;Lorem ipsum&quot;" name="Home should containe the text &quot;Lorem ipsum&quot;" time="0.008">
+    <testcase classname="Home should containe the text &quot;Lorem ipsum&quot;" name="Home should containe the text &quot;Lorem ipsum&quot;" time="0.009">
     </testcase>
   </testsuite>
 </testsuites>

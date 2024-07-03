@@ -25,6 +25,11 @@ steps:
 
 - script: |
     yarn add esm
+  displayName: 'install esm module'
+
+- script: |
+    yarn upgrade
+  displayName: 'yarn upgrade after esm module installed'
 
 - script: |
     yarn test
