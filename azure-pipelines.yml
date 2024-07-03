@@ -24,6 +24,9 @@ steps:
   displayName: 'Install packages'
 
 - script: |
+    yarn add esm
+
+- script: |
     yarn test
   displayName: 'Test code'
 
