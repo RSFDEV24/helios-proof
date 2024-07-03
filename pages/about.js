@@ -1,4 +1,5 @@
 import styles from './page.module.css'
+import Link from 'next/link'
 
 export default function About() {
     return(
@@ -32,7 +33,7 @@ export default function About() {
             </div>
 
             <div className={styles.grid}>
-                <a
+                <Link
                 href="/"
                 className={styles.card}
                 rel="noopener noreferrer"
@@ -41,7 +42,7 @@ export default function About() {
                     Home
                 </h2>
                 <p>Back to the home page.</p>
-                </a>
+                </Link>
             </div>
         </main>
     );
