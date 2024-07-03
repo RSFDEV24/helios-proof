@@ -38,6 +38,6 @@ steps:
   displayName: 'Remove packages'
 
 - script: |
-    yarn install --frozen-lockfile
+    yarn install --production --frozen-lockfile
     yarn build
   displayName: 'yarn install and build'
